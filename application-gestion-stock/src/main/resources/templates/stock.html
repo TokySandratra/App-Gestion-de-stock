@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Stock</title></head>
+<body>
+<h3>Gestion de stock :</h3>
+<table border="1">
+    <tr>
+        <th>Article</th><th>Qté</th><th>
+    </tr>
+    <tr th:each="article : ${commande.ligneCommandes}">
+        <td th:text="${ligne.labelProduct}"></td>
+        <td th:text="${ligne.quantity}"></td>
+    </tr>
+</table>
+
+<form th:action="@{/stock/appro}" method="post">
+    <button type="submit">Approvisionner</button>
+</form>
+
+</body>
+</html>
