@@ -22,7 +22,8 @@ public class Article {
         this.quantity = quantity;
     }
 
-
+    public Article() {
+    }
 
     public long getId() {
         return id;

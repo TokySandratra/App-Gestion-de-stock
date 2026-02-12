@@ -1,0 +1,6 @@
+2026-02-13 00:04:06.889406+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ARTICLE" not found; SQL statement:
+select a1_0.id,a1_0.label,a1_0.quantity from article a1_0 [42102-240]
+2026-02-13 00:05:38.831082+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ARTICLE" not found; SQL statement:
+select a1_0.id,a1_0.label,a1_0.quantity from article a1_0 [42102-240]
